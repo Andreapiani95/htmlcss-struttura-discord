@@ -12,6 +12,80 @@
 
 /*
 
+    BODY
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+    text-align: start;
+}
+
+.link-section{
+    width: 50%;
+    text-align: center;
+}
+
+.login{
+    width: 25%;
+    text-align: right;
+}
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+}
+
+.download-panel{
+    width: 60%;
+}
+
+
+/*
+
     DEBUG
 
 */
+
+.debug .header-top,
+.debug .nav-bar{
+    background-color: #ADD8E6;
+    height: 100px;
+}
+
+.debug .header-bottom{
+    background-color: #00008B;
+    height: 500px;
+}
+
+.debug .logo,
+.debug .link-section,
+.debug .login{
+    background-color: #DAA520;
+    height: 30px;
+    border: dashed black;
+}
+
+.debug .download-panel{
+    background-color: #EE82EE;
+    height: 400px;
+    border: dashed black;
+}
