@@ -23,16 +23,26 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-}
-
-nav{
     display: flex;
 }
 
 .nav-bar{
-    display: flex;
     align-items: center;
 }
+
+.uno{
+    align-items: center;
+}
+
+.due{
+    align-items: center;
+}
+
+/*
+
+    HEADER
+
+*/
 
 .logo{
     width: 25%;
@@ -58,6 +68,29 @@ nav{
     width: 60%;
 }
 
+/*
+
+    MAIN
+
+*/
+
+.columns-blue{
+    background-color: #1E90FF;
+    width: 60%;
+}
+.columns-pink{
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+.img-slot{
+    background-color: #228B22;
+    width: 100%;
+}
+
+section:nth-of-type(even){
+    background-color: #D3D3D3;
+}
 
 /*
 
@@ -76,6 +109,21 @@ nav{
     height: 500px;
 }
 
+
+
+.debug .main{
+    background-color: #FFFFFF;
+}
+
+.debug .uno{
+    height: 500px;
+}
+
+.debug .due{
+    height: 800px;
+}
+
+
 .debug .logo,
 .debug .link-section,
 .debug .login{
@@ -87,5 +135,16 @@ nav{
 .debug .download-panel{
     background-color: #EE82EE;
     height: 400px;
+    border: dashed black;
+}
+
+.debug .columns-blue,
+.debug .columns-pink{
+    height: 400px;
+    border: dashed black;
+}
+
+.debug .img-slot{
+    height: 700px;
     border: dashed black;
 }
